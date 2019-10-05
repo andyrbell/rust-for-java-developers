@@ -1,0 +1,4 @@
+= Rust for Java Developers workshop
+
+An introduction to the https://www.rust-lang.org/[Rust] programming language for Java developers
+
