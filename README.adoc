@@ -1,4 +1,7 @@
 = Rust for Java Developers workshop
 
+image::images/rust-crates.png[Rust logo]
+
 An introduction to the https://www.rust-lang.org/[Rust] programming language for Java developers
 
+Clone this repository then follow the instructions on the link:../../wiki[Wiki]

@@ -1,0 +1,1601 @@
+[
+  {
+    "id": 26701,
+    "fromDate": "2019-11-04T07:30:00Z",
+    "toDate": "2019-11-04T08:30:00Z",
+    "overflow": false,
+    "reserved": false,
+    "remark": null,
+    "roomId": 1203,
+    "roomName": "Exhibition Hall",
+    "sessionTypeId": 1263,
+    "sessionTypeName": "Registration & Breakfast",
+    "sessionTypeDuration": 60,
+    "sessionTypeBreak": true,
+    "audienceLevel": null,
+    "langName": null,
+    "timezone": "Europe/Brussels",
+    "trackId": null,
+    "trackName": null,
+    "trackImageURL": null,
+    "speakers": null,
+    "tags": null,
+    "talkDescription": null,
+    "talkTitle": null,
+    "talkId": null
+  },
+  {
+    "id": 26564,
+    "fromDate": "2019-11-04T08:30:00Z",
+    "toDate": "2019-11-04T11:30:00Z",
+    "overflow": false,
+    "reserved": false,
+    "remark": null,
+    "roomId": 1211,
+    "roomName": "Room 4",
+    "sessionTypeId": 1256,
+    "sessionTypeName": "Deep Dive",
+    "sessionTypeDuration": 180,
+    "sessionTypeBreak": false,
+    "audienceLevel": "ADVANCED",
+    "langName": null,
+    "timezone": "Europe/Brussels",
+    "trackId": "1154",
+    "trackName": "Java Language",
+    "trackImageURL": "https://s3-eu-west-1.amazonaws.com/voxxeddays/webapp/images/f63a6ff7-0b15-4feb-b0fb-06aad848e601.png",
+    "speakers": [
+      {
+        "id": 109256,
+        "firstName": "Kirk",
+        "lastName": "Pepperdine",
+        "company": null
+      }
+    ],
+    "tags": [
+      {
+        "name": "OutOfMemoryError"
+      },
+      {
+        "name": "memory leaks"
+      },
+      {
+        "name": "JVM"
+      }
+    ],
+    "talkDescription": "One of the more important aspects of the Java Virtual Machine (JVM) is it’s managed memory subsystem. It’s an amazing piece of technology in that it allows developers to allocate a seemingly infinite amount of memory. The reality is that under the covers, the JVM is working on reclaiming all memory that is no longer in use. If the JVM is unable to recover memory, our application will fail with a dreaded OutOfMemoryError.\n\nThis session will cover several common scenarios that can cause the JVM to fail with an OutOfMemoryError. We’ll explore tooling and methods that can be used to diagnose the cause of an OutOfMemoryError. Finally, we’ll go toe to toe with apps suffer from an OutOfMemoryError for different reasons. Topics that will be covered include; 1. Overview of Java heap 2. Allocations in Java heap 3. GC basics with Mark and Sweep 4. Normal life cycle of a Java object 5. Common causes of OutOfMemoryError 6. Anatomy of a memory leak 7. Tools for detecting memory leaks",
+    "talkTitle": "Solving Memory Leaks in the JVM",
+    "talkId": 109305
+  },
+  {
+    "id": 26554,
+    "fromDate": "2019-11-04T08:30:00Z",
+    "toDate": "2019-11-04T11:30:00Z",
+    "overflow": false,
+    "reserved": false,
+    "remark": null,
+    "roomId": 1202,
+    "roomName": "Room 5",
+    "sessionTypeId": 1256,
+    "sessionTypeName": "Deep Dive",
+    "sessionTypeDuration": 180,
+    "sessionTypeBreak": false,
+    "audienceLevel": "BEGINNER",
+    "langName": null,
+    "timezone": "Europe/Brussels",
+    "trackId": "1154",
+    "trackName": "Java Language",
+    "trackImageURL": "https://s3-eu-west-1.amazonaws.com/voxxeddays/webapp/images/f63a6ff7-0b15-4feb-b0fb-06aad848e601.png",
+    "speakers": [
+      {
+        "id": 49072,
+        "firstName": "Oleg",
+        "lastName": "Šelajev",
+        "company": "Oracle"
+      }
+    ],
+    "tags": [
+      {
+        "name": "GraalVM"
+      },
+      {
+        "name": "performance"
+      },
+      {
+        "name": "JVM"
+      }
+    ],
+    "talkDescription": "GraalVM is a high-performance runtime for dynamic, static, and native languages. GraalVM supports Java, Scala, Kotlin, Groovy, and other JVM-based languages. At the same time, it can run the dynamic scripting languages JavaScript including node.js, Ruby, R, and Python. \nGraalVM answers different performance questions and offers state-of-the-art solutions for peak-performance, startup or memory usage requirements. It's a versatile and large project, which we'll try to introduce thoroughly during this session. \nWe'll look at running Java applications with GraalVM, creating GraalVM native images, running dynamic languages with GraalVM and how to make them work with your existing Java code base. \nGraalVM has an excellent JIT compiler and we'll look at several benchmarks uncovering which optimisations are the most essential and what code patterns get the largest performance boost. \nWe'll explain the trade-offs between running GraalVM JIT vs. GraalVM AOT, and look at the examples of GraalVM native images. \nYou'll learn how GraalVM implements support for the languages and what are the best practices for using them together. \n\nThis session gives you a deep overview of GraalVM capabilities and allows you to effectively understand when GraalVM can help you and how to start using it. ",
+    "talkTitle": "Everything you need to know about GraalVM",
+    "talkId": 52356
+  },
+  {
+    "id": 26555,
+    "fromDate": "2019-11-04T08:30:00Z",
+    "toDate": "2019-11-04T11:30:00Z",
+    "overflow": false,
+    "reserved": false,
+    "remark": null,
+    "roomId": 1207,
+    "roomName": "Room 6",
+    "sessionTypeId": 1256,
+    "sessionTypeName": "Deep Dive",
+    "sessionTypeDuration": 180,
+    "sessionTypeBreak": false,
+    "audienceLevel": "BEGINNER",
+    "langName": null,
+    "timezone": "Europe/Brussels",
+    "trackId": "1153",
+    "trackName": "Big Data & Machine Learning",
+    "trackImageURL": "https://s3-eu-west-1.amazonaws.com/voxxeddays/webapp/images/e80e14f1-7a23-4a6d-a955-7a653973f6eb.png",
+    "speakers": [
+      {
+        "id": 53352,
+        "firstName": "Abraham",
+        "lastName": "Kang",
+        "company": "GEEEE, LLC"
+      }
+    ],
+    "tags": [
+      {
+        "name": "Machine learning"
+      },
+      {
+        "name": "Machine Learning for Developers"
+      },
+      {
+        "name": "security"
+      }
+    ],
+    "talkDescription": "Machine Learning is the future and in some cases the present.  Most developers and hackers alike are new to this area.  At first blush, machine learning looks incredibly difficult. Linear algebra, calculus, statistics, probability, and advanced mathematics.  Come to my talk to get a quick understanding of neural networks and the associated hacking methods used against them: trojaning, adversarial examples, adversarial patches, data poisoning, model extraction and training data leakage. Although this talk covers a complex topic, the ideas are explained such that all levels of developers will benefit.",
+    "talkTitle": "Understanding Security Threats Against Machine/Deep Learning Applications",
+    "talkId": 53701
+  },
+  {
+    "id": 26552,
+    "fromDate": "2019-11-04T08:30:00Z",
+    "toDate": "2019-11-04T11:30:00Z",
+    "overflow": false,
+    "reserved": false,
+    "remark": null,
+    "roomId": 1201,
+    "roomName": "Room 8",
+    "sessionTypeId": 1256,
+    "sessionTypeName": "Deep Dive",
+    "sessionTypeDuration": 180,
+    "sessionTypeBreak": false,
+    "audienceLevel": "BEGINNER",
+    "langName": null,
+    "timezone": "Europe/Brussels",
+    "trackId": "1155",
+    "trackName": "Server Side Java",
+    "trackImageURL": "https://s3-eu-west-1.amazonaws.com/voxxeddays/webapp/images/698b503d-9578-48da-85a9-bdf8ba942e3a.png",
+    "speakers": [
+      {
+        "id": 44103,
+        "firstName": "Mario",
+        "lastName": "Fusco",
+        "company": "Red Hat"
+      },
+      {
+        "id": 40703,
+        "firstName": "Maciej",
+        "lastName": "Swiderski",
+        "company": "Red Hat"
+      },
+      {
+        "id": 8701,
+        "firstName": "Edoardo",
+        "lastName": "Vacchi",
+        "company": "Red Hat"
+      }
+    ],
+    "tags": [
+      {
+        "name": "Drools"
+      },
+      {
+        "name": "Cloud Native Java"
+      },
+      {
+        "name": "microservices architectures"
+      },
+      {
+        "name": "GraalVM"
+      },
+      {
+        "name": "Quarkus"
+      },
+      {
+        "name": "Live Coding & Demos"
+      }
+    ],
+    "talkDescription": "Java is entering a new era, the cloud native one. Thanks to GraalVM it can be made smaller, lighter and faster, keeping all its power. This innovative way of developing and deploying Java applications has been pushed to the next level by Quarkus that provides a full-stack development experience seamlessly integrating many widely used Java libraries and thus opens the door for next generation of middleware. Business automation is an important players in this context and Kogito, a new Java toolkit based on Drools and jBPM, is made to bring rules and processes to the Quarkus world.\n\nAfter a quick introduction to Kogito we'll show in a live conding session how it can be used to build cloud ready event-driven business applications. Starting from scratch we'll create micorservices implementing the business logic of a complex domain with rules and modelling its workflows through business processes. We will demonstrate how Quarkus hot reload capabilities can be used to design this business logic in an iterative way, how to integrate these services with Kafka to process business events, how to monitor them with Prometheus and Grafana and finally how to deploy everything into the cloud.",
+    "talkTitle": "Event-driven business automation powered by cloud native Java",
+    "talkId": 44155
+  },
+  {
+    "id": 26551,
+    "fromDate": "2019-11-04T08:30:00Z",
+    "toDate": "2019-11-04T11:30:00Z",
+    "overflow": false,
+    "reserved": false,
+    "remark": null,
+    "roomId": 1205,
+    "roomName": "Room 9",
+    "sessionTypeId": 1256,
+    "sessionTypeName": "Deep Dive",
+    "sessionTypeDuration": 180,
+    "sessionTypeBreak": false,
+    "audienceLevel": "BEGINNER",
+    "langName": null,
+    "timezone": "Europe/Brussels",
+    "trackId": "1159",
+    "trackName": "Cloud, Containers & Infrastructure",
+    "trackImageURL": "https://s3-eu-west-1.amazonaws.com/voxxeddays/webapp/images/227114b5-6c72-4059-82ef-be9bf00ddd47.png",
+    "speakers": [
+      {
+        "id": 49513,
+        "firstName": "Alberto",
+        "lastName": "Rios",
+        "company": "Pivotal"
+      },
+      {
+        "id": 45708,
+        "firstName": "Oliver",
+        "lastName": "Hughes",
+        "company": "Pivotal"
+      }
+    ],
+    "tags": [
+      {
+        "name": "devops"
+      },
+      {
+        "name": "Kubernetes"
+      },
+      {
+        "name": "Cloud Native Applications"
+      }
+    ],
+    "talkDescription": "The Kubernetes hype train has reached full velocity and many organisations are now adopting the technology. The Kubernetes ecosystem can be very operator focussed and it can be a challenge for developers to distil the information that is relevant for their job. There are a large number of available tools aimed at solving a broad set of problems but it can be daunting choosing which to invest in. This deep dive sessions aims to provide developers with a thorough grounding on Kubernetes concepts, suggest best practices and get hands-on with some of the essential tooling. Topics will include \n* Local development workflow\n* Approaches for building images from source\n* Image Tagging Strategies\n* Using profiles\n* Deployment\n* Remote build services\n* Automated testing & Kubernetes\n* Debugging apps on Kubernetes\n* Provisioning a persistent data store with your application\n* Packaging your service as a Cloud Native Application Bundle\n* Health monitoring and management of running services\n* Log aggregation\n* TLS Termination\n* Integrating with Kubernetes security\n* Externalised Configuration & Secrets\n* Service to Service communication & discovery\n* Ingress Controllers\n* Observability of applications",
+    "talkTitle": "Kubernetes  Distilled - an in depth guide for the busy Java developer",
+    "talkId": 45460
+  },
+  {
+    "id": 26887,
+    "fromDate": "2019-11-04T08:30:00Z",
+    "toDate": "2019-11-04T11:30:00Z",
+    "overflow": false,
+    "reserved": false,
+    "remark": null,
+    "roomId": 1210,
+    "roomName": "BOF 1",
+    "sessionTypeId": 1262,
+    "sessionTypeName": "Hands-on Lab",
+    "sessionTypeDuration": 180,
+    "sessionTypeBreak": false,
+    "audienceLevel": "BEGINNER",
+    "langName": null,
+    "timezone": "Europe/Brussels",
+    "trackId": "1154",
+    "trackName": "Java Language",
+    "trackImageURL": "https://s3-eu-west-1.amazonaws.com/voxxeddays/webapp/images/f63a6ff7-0b15-4feb-b0fb-06aad848e601.png",
+    "speakers": [
+      {
+        "id": 36451,
+        "firstName": "Sergei",
+        "lastName": "Egorov",
+        "company": "Pivotal"
+      }
+    ],
+    "tags": [
+      {
+        "name": "Java"
+      },
+      {
+        "name": "testing"
+      },
+      {
+        "name": "Docker"
+      }
+    ],
+    "talkDescription": "Unit testing is fine, but without proper integration testing, especially if you work with external resources like databases and other services, you might not know how your application will actually behave once it has been deployed to the real production environment.\n\nBefore Docker, configuring the environment for integration testing was painful – people were using fake database implementations, mocking servers, usually it was not cross-platform as well. However, thanks to Docker, now we can quickly prepare the environment for our tests.\n\nIn this workshop we would like to show how you can use Testcontainers ( https://github.com/testcontainers/testcontainers-java ) – a popular Java testing library that provides lightweight, throwaway instances of common databases, Selenium web browsers, or anything else that can run in a Docker container. We will integrate it into a Spring Boot microservice and use real PostgreSQL and Redis databases to test it, will isolate it from other microservices, and maybe even start Selenium browsers in Docker and test our application, all with the same library!",
+    "talkTitle": "Integration testing with Docker and Testcontainers",
+    "talkId": 36502
+  },
+  {
+    "id": 26886,
+    "fromDate": "2019-11-04T08:30:00Z",
+    "toDate": "2019-11-04T11:30:00Z",
+    "overflow": false,
+    "reserved": false,
+    "remark": null,
+    "roomId": 1206,
+    "roomName": "BOF 2",
+    "sessionTypeId": 1262,
+    "sessionTypeName": "Hands-on Lab",
+    "sessionTypeDuration": 180,
+    "sessionTypeBreak": false,
+    "audienceLevel": "BEGINNER",
+    "langName": null,
+    "timezone": "Europe/Brussels",
+    "trackId": "1152",
+    "trackName": "Programming languages",
+    "trackImageURL": "https://s3-eu-west-1.amazonaws.com/voxxeddays/webapp/images/53f80769-d8be-4ae5-a731-d5591c97d2b4.png",
+    "speakers": [
+      {
+        "id": 22101,
+        "firstName": "Paul",
+        "lastName": "Watson",
+        "company": "PDWTech"
+      },
+      {
+        "id": 52601,
+        "firstName": "Andy",
+        "lastName": "Bell",
+        "company": "Virtual Perfection"
+      }
+    ],
+    "tags": [
+      {
+        "name": "programming languages"
+      },
+      {
+        "name": "building tools"
+      },
+      {
+        "name": "functional programming language"
+      }
+    ],
+    "talkDescription": "The language that everyone wants to learn. Famed for its speed, correctness and memory safety, Rust is an up and coming language that has reached a level of maturity and should be considered for a space in our developer toolbox.\n\nWe will cover the fundamentals of Rust from the perspective of developers who's main language is JVM based: How do I start? What is familiar? What is different? What to avoid?\n\nIn this lab we will learn Rust by building a command-line application together. \n\nNo previous experience is necessary but you should be familiar with Java or similar.\n",
+    "talkTitle": "Rust for Java Developers",
+    "talkId": 52078
+  },
+  {
+    "id": 26703,
+    "fromDate": "2019-11-04T11:30:00Z",
+    "toDate": "2019-11-04T12:30:00Z",
+    "overflow": false,
+    "reserved": false,
+    "remark": null,
+    "roomId": 1203,
+    "roomName": "Exhibition Hall",
+    "sessionTypeId": 26751,
+    "sessionTypeName": "Lunch",
+    "sessionTypeDuration": 60,
+    "sessionTypeBreak": true,
+    "audienceLevel": null,
+    "langName": null,
+    "timezone": "Europe/Brussels",
+    "trackId": null,
+    "trackName": null,
+    "trackImageURL": null,
+    "speakers": null,
+    "tags": null,
+    "talkDescription": null,
+    "talkTitle": null,
+    "talkId": null
+  },
+  {
+    "id": 26559,
+    "fromDate": "2019-11-04T12:30:00Z",
+    "toDate": "2019-11-04T15:30:00Z",
+    "overflow": false,
+    "reserved": false,
+    "remark": null,
+    "roomId": 1211,
+    "roomName": "Room 4",
+    "sessionTypeId": 1256,
+    "sessionTypeName": "Deep Dive",
+    "sessionTypeDuration": 180,
+    "sessionTypeBreak": false,
+    "audienceLevel": "BEGINNER",
+    "langName": null,
+    "timezone": "Europe/Brussels",
+    "trackId": "1157",
+    "trackName": "Front End",
+    "trackImageURL": "https://s3-eu-west-1.amazonaws.com/voxxeddays/webapp/images/e8f80f6a-89da-49e9-993c-bc94be9ca14b.png",
+    "speakers": [
+      {
+        "id": 50822,
+        "firstName": "Noël",
+        "lastName": "Macé",
+        "company": ""
+      }
+    ],
+    "tags": [
+      {
+        "name": "buzzwords"
+      },
+      {
+        "name": "performance"
+      },
+      {
+        "name": "Web API"
+      },
+      {
+        "name": "reliability"
+      },
+      {
+        "name": "user experience"
+      },
+      {
+        "name": "innovations"
+      },
+      {
+        "name": "PWA"
+      }
+    ],
+    "talkDescription": "The F.I.R.E. safety kit for everyone! Learn all the best new capabilities of the Modern Web in one shot without burning out!\n\nFour years ago the idea of _Progressive Web Apps_  arrived in the world! It brought a whole new approach to mobile & web apps development, often summarized as  F.I.R.E. (Fast Integrated Reliable & Engaging). But the web platform is constantly evolving and mutating, so how has F.I.R.E. technology evolved with it?\n\nJoin me to explore four cutting-edge technologies (one for each F.I.R.E. concept) that will help bring your web apps to the next level!",
+    "talkTitle": "The Web is on \uD83D\uDD25 F.I.R.E. \uD83D\uDD25 !!!",
+    "talkId": 51716
+  },
+  {
+    "id": 26557,
+    "fromDate": "2019-11-04T12:30:00Z",
+    "toDate": "2019-11-04T15:30:00Z",
+    "overflow": false,
+    "reserved": false,
+    "remark": null,
+    "roomId": 1202,
+    "roomName": "Room 5",
+    "sessionTypeId": 1256,
+    "sessionTypeName": "Deep Dive",
+    "sessionTypeDuration": 180,
+    "sessionTypeBreak": false,
+    "audienceLevel": "BEGINNER",
+    "langName": null,
+    "timezone": "Europe/Brussels",
+    "trackId": "1154",
+    "trackName": "Java Language",
+    "trackImageURL": "https://s3-eu-west-1.amazonaws.com/voxxeddays/webapp/images/f63a6ff7-0b15-4feb-b0fb-06aad848e601.png",
+    "speakers": [
+      {
+        "id": 50558,
+        "firstName": "Piotr",
+        "lastName": "Przybyl",
+        "company": "@piotrprz"
+      }
+    ],
+    "tags": [
+      {
+        "name": "Java 12"
+      },
+      {
+        "name": "enhancements"
+      },
+      {
+        "name": "API changes"
+      },
+      {
+        "name": "Java 11"
+      }
+    ],
+    "talkDescription": "Hey, there were two major Java versions released since last Devoxx!\nWe don't have to wait 3 years or so for new features any more. Isn't that cool? ;-)\nSo... you'd like to check what has happened since Java 11?\nSwitch expressions? String blocks? New functions in String, Streams and other APIs? What are the Shenandoah and ZGC about? AppCDS to speed up spin-off?\nIf you find them interesting, let's dive deep together into new interesting stuff.\n",
+    "talkTitle": "Java 12 & 13. What's new and noteworthy?",
+    "talkId": 50268
+  },
+  {
+    "id": 26558,
+    "fromDate": "2019-11-04T12:30:00Z",
+    "toDate": "2019-11-04T15:30:00Z",
+    "overflow": false,
+    "reserved": false,
+    "remark": null,
+    "roomId": 1207,
+    "roomName": "Room 6",
+    "sessionTypeId": 1256,
+    "sessionTypeName": "Deep Dive",
+    "sessionTypeDuration": 180,
+    "sessionTypeBreak": false,
+    "audienceLevel": "BEGINNER",
+    "langName": null,
+    "timezone": "Europe/Brussels",
+    "trackId": "1153",
+    "trackName": "Big Data & Machine Learning",
+    "trackImageURL": "https://s3-eu-west-1.amazonaws.com/voxxeddays/webapp/images/e80e14f1-7a23-4a6d-a955-7a653973f6eb.png",
+    "speakers": [
+      {
+        "id": 45802,
+        "firstName": "Charalampos",
+        "lastName": "Xanthopoulakis",
+        "company": "ASML"
+      }
+    ],
+    "tags": [
+      {
+        "name": "Big Data"
+      },
+      {
+        "name": "Design"
+      },
+      {
+        "name": "Open data"
+      }
+    ],
+    "talkDescription": "Everyone nowadays is obsessed about Big Data, but is it really enough to make a difference? Big Data is in fact like raw ore; you need to process it the right way to reveal its real treasure. Data visualizations allow us to gain knowledge out of pure texts and numbers, to tell the stories that lie behind the data. In this interactive workshop, we are talking about the thought process, the techniques, the tools and technologies on how your data can show its deeper meaning all the way from cancer diagnosis and microelectronics to housing prices and even your own zodiac sign!\n\nLearning Outcomes\nExperience at first hand the thought process behind engaging data visualisations used in the industry and the academia\nLearn how to think visually\nExperiment with known javascript-based data-visualisation libraries, such as D3.js, highcharts.js, and Vega\nTell the story your data has to reveal in a fun and creative way",
+    "talkTitle": "Use your data to tell stories",
+    "talkId": 45908
+  },
+  {
+    "id": 26560,
+    "fromDate": "2019-11-04T12:30:00Z",
+    "toDate": "2019-11-04T15:30:00Z",
+    "overflow": false,
+    "reserved": false,
+    "remark": null,
+    "roomId": 1201,
+    "roomName": "Room 8",
+    "sessionTypeId": 1256,
+    "sessionTypeName": "Deep Dive",
+    "sessionTypeDuration": 180,
+    "sessionTypeBreak": false,
+    "audienceLevel": "BEGINNER",
+    "langName": null,
+    "timezone": "Europe/Brussels",
+    "trackId": "1155",
+    "trackName": "Server Side Java",
+    "trackImageURL": "https://s3-eu-west-1.amazonaws.com/voxxeddays/webapp/images/698b503d-9578-48da-85a9-bdf8ba942e3a.png",
+    "speakers": [
+      {
+        "id": 10201,
+        "firstName": "Graeme",
+        "lastName": "Rocher",
+        "company": "Object Computing"
+      }
+    ],
+    "tags": [
+      {
+        "name": "Java"
+      },
+      {
+        "name": "MicroServices"
+      },
+      {
+        "name": "Apache Groovy"
+      },
+      {
+        "name": "Micronaut"
+      },
+      {
+        "name": "Kotlin"
+      }
+    ],
+    "talkDescription": "This session is for developers looking to go beyond the basics with Micronaut, a new microservices and serverless framework for Java, Kotlin, and Groovy. Taking an extensive look at how advanced features such as dependency injection (DI), aspect-oriented programming (AOP), and ahead-of-time (AOT) compilation work, the creator of Micronaut, Graeme Rocher, will walk attendees through Micronaut’s elegant programming model. Attendees will come away with a better understanding about the motivations behind Micronaut's design.",
+    "talkTitle": "Micronaut Deep Dive",
+    "talkId": 10251
+  },
+  {
+    "id": 26556,
+    "fromDate": "2019-11-04T12:30:00Z",
+    "toDate": "2019-11-04T15:30:00Z",
+    "overflow": false,
+    "reserved": false,
+    "remark": null,
+    "roomId": 1205,
+    "roomName": "Room 9",
+    "sessionTypeId": 1256,
+    "sessionTypeName": "Deep Dive",
+    "sessionTypeDuration": 180,
+    "sessionTypeBreak": false,
+    "audienceLevel": "BEGINNER",
+    "langName": null,
+    "timezone": "Europe/Brussels",
+    "trackId": "1151",
+    "trackName": "Methodology & Culture",
+    "trackImageURL": "https://s3-eu-west-1.amazonaws.com/voxxeddays/webapp/images/710ace39-49e0-4935-9734-7cda98204fa4.png",
+    "speakers": [
+      {
+        "id": 33901,
+        "firstName": "Kate",
+        "lastName": "Wardin",
+        "company": "Target Corp & Developer First "
+      }
+    ],
+    "tags": [
+      {
+        "name": "tech lead"
+      },
+      {
+        "name": "lead"
+      },
+      {
+        "name": "culture"
+      }
+    ],
+    "talkDescription": "Be prepared to challenge your preexisting perspectives of technical leadership as we explore non-traditional approaches and techniques in these immersive, hands-on workshops and presentations. \n\nYou will be required to step outside your comfort zone as you share personal experiences and discuss challenging topics such as: giving feedback, working with different communication styles, facilitating effective (non-awkward) 1:1s, practicing authenticity, empowering developers to reach their full potential, and establishing powerful and bullet-proof morning routines to maximize your busy schedules.\n",
+    "talkTitle": "Developer First: A New Leadership Mindset",
+    "talkId": 33951
+  },
+  {
+    "id": 26889,
+    "fromDate": "2019-11-04T12:30:00Z",
+    "toDate": "2019-11-04T15:30:00Z",
+    "overflow": false,
+    "reserved": false,
+    "remark": null,
+    "roomId": 1210,
+    "roomName": "BOF 1",
+    "sessionTypeId": 1262,
+    "sessionTypeName": "Hands-on Lab",
+    "sessionTypeDuration": 180,
+    "sessionTypeBreak": false,
+    "audienceLevel": "BEGINNER",
+    "langName": null,
+    "timezone": "Europe/Brussels",
+    "trackId": "1154",
+    "trackName": "Java Language",
+    "trackImageURL": "https://s3-eu-west-1.amazonaws.com/voxxeddays/webapp/images/f63a6ff7-0b15-4feb-b0fb-06aad848e601.png",
+    "speakers": [
+      {
+        "id": 18751,
+        "firstName": "Kamesh",
+        "lastName": "Sampath",
+        "company": "Red Hat India"
+      },
+      {
+        "id": 21401,
+        "firstName": "Emmanuel",
+        "lastName": "Bernard",
+        "company": "Red Hat"
+      }
+    ],
+    "tags": [
+      {
+        "name": "Java"
+      },
+      {
+        "name": "Cloud Native Java"
+      },
+      {
+        "name": "Kubernetes"
+      },
+      {
+        "name": "GraalVM"
+      },
+      {
+        "name": "Hibernate"
+      },
+      {
+        "name": "Quarkus"
+      }
+    ],
+    "talkDescription": "Java assumed the whole computer belonged to itself, that it could consume all available memory and CPU. In this presentation, we will demonstrate the problems associated using Java for “microservices”, and how the open source ecosystem is working to insure the future of Java by being cloud first, container native, serverless focused and Kubernetes optimized. This is where GraalVM meets Quarkus (https://quarkus.io), bringing server-side and enterprise-capable Java to enable you to build truly cloud native apps.\n\nAs part of this workshop the developers will learn the basics of how to create their first Quarkus app, run in development mode, build JVM and native artifacts, make them as linux containers and deploy into Kubernetes. The workshop also  teaches the developers how quickly they can build database applications using Hibernate.",
+    "talkTitle": "Learn to build Cloud Native Java Applications with Quarkus",
+    "talkId": 18803
+  },
+  {
+    "id": 26888,
+    "fromDate": "2019-11-04T12:30:00Z",
+    "toDate": "2019-11-04T15:30:00Z",
+    "overflow": false,
+    "reserved": false,
+    "remark": null,
+    "roomId": 1206,
+    "roomName": "BOF 2",
+    "sessionTypeId": 1262,
+    "sessionTypeName": "Hands-on Lab",
+    "sessionTypeDuration": 180,
+    "sessionTypeBreak": false,
+    "audienceLevel": "INTERMEDIATE",
+    "langName": null,
+    "timezone": "Europe/Brussels",
+    "trackId": "1156",
+    "trackName": "Security",
+    "trackImageURL": "https://s3-eu-west-1.amazonaws.com/voxxeddays/webapp/images/fab122c4-5e16-4e83-a3da-fad00870c886.png",
+    "speakers": [
+      {
+        "id": 19853,
+        "firstName": "Andreas",
+        "lastName": "Falk",
+        "company": "Novatec Consulting GmbH"
+      }
+    ],
+    "tags": [
+      {
+        "name": "OAuth 2.0"
+      },
+      {
+        "name": "Spring Security"
+      },
+      {
+        "name": "OpenID Connect"
+      }
+    ],
+    "talkDescription": "Have you ever wondered what the heck is OpenID Connect and how it differs from OAuth 2.0? Are Grant Types, Flows, JOSE, JWT or JWK unknown beings for you?\nThen this workshop is a great opportunity for you to get to know all these things by getting your hands dirty in code using Spring Security 5.\nAfter a short introduction to the basic concepts of OAuth 2.0 and OpenID Connect 1.0, we will take an existing sample spring boot application to implement authentication with OpenID Connect (OIDC) in several steps.\n\nDuring the hands-on part we will cover the following parts:\n\n- Best practices to avoid OWASP Top 10 security risks of broken authentication and access controls\n- Usage of a certified OpenID Connect Provider Server\n- Insights into the authorization code flow of OAuth 2.0/OpenID Connect 1.0\n- Basic implementation of a Resource Server\n- Authorization with automatically mapped OIDC Scopes\n- Custom mapping of OIDC claims to Spring Security roles and authorities\n- Extended validation of JWT’s\n- Realization of an OIDC Login Client\n- Differences in OIDC/OAuth 2.0 support for servlet-based and reactive web stacks (during hands-on we will mainly use the servlet-based web stack)\n\nThe workshop will be complemented with current best practices in OIDC & OAuth 2.0 and will end with an outlook on what’s coming with the next Spring Security version.\nPrerequisites: General experience in Java and Spring-Boot is expected. For the Hands-On part, you’ll need a notebook with JDK 8, 9 or 11 and a Java IDE of your choice.",
+    "talkTitle": "Securing Microservices with OpenID Connect and Spring Security 5",
+    "talkId": 19706
+  },
+  {
+    "id": 26951,
+    "fromDate": "2019-11-04T15:30:00Z",
+    "toDate": "2019-11-04T15:45:00Z",
+    "overflow": false,
+    "reserved": false,
+    "remark": null,
+    "roomId": 1203,
+    "roomName": "Exhibition Hall",
+    "sessionTypeId": 26902,
+    "sessionTypeName": "Break",
+    "sessionTypeDuration": 15,
+    "sessionTypeBreak": true,
+    "audienceLevel": null,
+    "langName": null,
+    "timezone": "Europe/Brussels",
+    "trackId": null,
+    "trackName": null,
+    "trackImageURL": null,
+    "speakers": null,
+    "tags": null,
+    "talkDescription": null,
+    "talkTitle": null,
+    "talkId": null
+  },
+  {
+    "id": 26571,
+    "fromDate": "2019-11-04T15:45:00Z",
+    "toDate": "2019-11-04T16:15:00Z",
+    "overflow": false,
+    "reserved": false,
+    "remark": null,
+    "roomId": 1211,
+    "roomName": "Room 4",
+    "sessionTypeId": 1254,
+    "sessionTypeName": "Tools-in-Action",
+    "sessionTypeDuration": 30,
+    "sessionTypeBreak": false,
+    "audienceLevel": "BEGINNER",
+    "langName": null,
+    "timezone": "Europe/Brussels",
+    "trackId": "1160",
+    "trackName": "Architecture",
+    "trackImageURL": "https://s3-eu-west-1.amazonaws.com/voxxeddays/webapp/images/17c5c96d-cbfd-42ef-b715-13f1a05c5391.png",
+    "speakers": [
+      {
+        "id": 44108,
+        "firstName": "Horacio",
+        "lastName": "Gonzalez",
+        "company": "OVH"
+      }
+    ],
+    "tags": [
+      {
+        "name": "Cloud."
+      },
+      {
+        "name": "Kubernetes"
+      },
+      {
+        "name": "architecture"
+      }
+    ],
+    "talkDescription": "Judging by the buzz it has created, this last year has been the year of Kubernetes. It is everywhere, and as usual with such popular subjects, there is a huge stash of content about it: tutorials, blog posts, talks by the dozen, everybody seems to be speaking about Kubernetes… All is well in the best of worlds, right?\n\nWell, to be sincere, I wouldn’t say so… Most of those tutorial, posts and talks stop just after they have guided you to do the “Hello Kube”, when you have a handful of applications deployed on a local Minikube on your laptop. But that is not the end, it’s more of the true beginning of the path…\n\nIn this talk I’m going to speak about the gap between Minikube and a production-ready Kubernetes infrastructure, about the dozens of “small details” that become show stoppers the first time you try to deploy your production Kubernetes, about the usefulness of managed Kubernetes solutions, about vendor locking, about multicloud and Kubernetes federation. In brief, about what to do after you have deployed on your Minikube…",
+    "talkTitle": "I have deployed my app on Minikube... and now what?",
+    "talkId": 44169
+  },
+  {
+    "id": 26572,
+    "fromDate": "2019-11-04T15:45:00Z",
+    "toDate": "2019-11-04T16:15:00Z",
+    "overflow": false,
+    "reserved": false,
+    "remark": null,
+    "roomId": 1202,
+    "roomName": "Room 5",
+    "sessionTypeId": 1254,
+    "sessionTypeName": "Tools-in-Action",
+    "sessionTypeDuration": 30,
+    "sessionTypeBreak": false,
+    "audienceLevel": "BEGINNER",
+    "langName": null,
+    "timezone": "Europe/Brussels",
+    "trackId": "1154",
+    "trackName": "Java Language",
+    "trackImageURL": "https://s3-eu-west-1.amazonaws.com/voxxeddays/webapp/images/f63a6ff7-0b15-4feb-b0fb-06aad848e601.png",
+    "speakers": [
+      {
+        "id": 52605,
+        "firstName": "José",
+        "lastName": "Paumard",
+        "company": "Independant (very)"
+      }
+    ],
+    "tags": [
+      {
+        "name": "Java SE"
+      },
+      {
+        "name": "Java"
+      },
+      {
+        "name": "future"
+      }
+    ],
+    "talkDescription": "The JDK is an open source project that you can download and build yourself! All the new things under work are available on Mercurial branches, that you can get and compile to test them before they are released. It allows you to play with them, see how they work, see what do the new syntaxes look like. In short: you can play now with a JDK from the future, that may never exist! We will show how all this work, from the installation of a Ubuntu virtual machine to the execution of a home made JDK that will never be released. ",
+    "talkTitle": "Building your own JDK in 10 steps",
+    "talkId": 54102
+  },
+  {
+    "id": 26573,
+    "fromDate": "2019-11-04T15:45:00Z",
+    "toDate": "2019-11-04T16:15:00Z",
+    "overflow": false,
+    "reserved": false,
+    "remark": null,
+    "roomId": 1207,
+    "roomName": "Room 6",
+    "sessionTypeId": 1254,
+    "sessionTypeName": "Tools-in-Action",
+    "sessionTypeDuration": 30,
+    "sessionTypeBreak": false,
+    "audienceLevel": "BEGINNER",
+    "langName": null,
+    "timezone": "Europe/Brussels",
+    "trackId": "1153",
+    "trackName": "Big Data & Machine Learning",
+    "trackImageURL": "https://s3-eu-west-1.amazonaws.com/voxxeddays/webapp/images/e80e14f1-7a23-4a6d-a955-7a653973f6eb.png",
+    "speakers": [
+      {
+        "id": 37351,
+        "firstName": "Alexis",
+        "lastName": "Duque",
+        "company": "Rtone"
+      }
+    ],
+    "tags": [
+      {
+        "name": "Machine learning"
+      },
+      {
+        "name": "IoT"
+      },
+      {
+        "name": "TensorFlow"
+      }
+    ],
+    "talkDescription": "While Machine Learning is usually deployed in the cloud, lightweight versions of these algorithms that fit for constrained IoT systems such as microcontrollers are appearing.\nUsing Machine Learning « at-the-edge » has indeed several advantages such as the reduction of network latency, it provides better privacy, and are working offline.\nIn this presentation, we will demonstrate how to deploy Deep Learning algorithms on IoT devices thanks to TensorFlow Lite. We will see how to use it to design a smart vertical farming system able to predict and optimize the plant growth, at home or in developing countries where a reliable Internet connection still is missing.",
+    "talkTitle": "Make your IoT even Smarter with Tensorflow Lite to Design the Future of Vertical Farming",
+    "talkId": 37401
+  },
+  {
+    "id": 26575,
+    "fromDate": "2019-11-04T15:45:00Z",
+    "toDate": "2019-11-04T16:15:00Z",
+    "overflow": false,
+    "reserved": false,
+    "remark": null,
+    "roomId": 1201,
+    "roomName": "Room 8",
+    "sessionTypeId": 1254,
+    "sessionTypeName": "Tools-in-Action",
+    "sessionTypeDuration": 30,
+    "sessionTypeBreak": false,
+    "audienceLevel": "BEGINNER",
+    "langName": null,
+    "timezone": "Europe/Brussels",
+    "trackId": "1155",
+    "trackName": "Server Side Java",
+    "trackImageURL": "https://s3-eu-west-1.amazonaws.com/voxxeddays/webapp/images/698b503d-9578-48da-85a9-bdf8ba942e3a.png",
+    "speakers": [
+      {
+        "id": 24905,
+        "firstName": "Michel",
+        "lastName": "Schudel",
+        "company": "Craftsmen"
+      }
+    ],
+    "tags": [
+      {
+        "name": "Java"
+      },
+      {
+        "name": "MicroServices"
+      },
+      {
+        "name": "Micronaut"
+      },
+      {
+        "name": "Quarkus"
+      },
+      {
+        "name": "comparison"
+      }
+    ],
+    "talkDescription": "Micronaut and Quarkus are two cool emerging Java backend frameworks that aim to solve some problems that exist in current frameworks, like faster startup, low memory footprint, and support for ahead-of-time compilation using GraalVM.\n\nIn this session, we'll square off both frameworks against each other. How do they compare, what are the stronger and weaker points of both frameworks? \n\nWe'll compare the following features:\n- Initializing your project\n- Building your first restcontroller / programming model\n- Startup time\n- Database support\n- Integration test support\n- Building native images\n- Memory usage and JAR sizes\n- Ease of cloud deployment\n\nIn the end, we might have a clear winner! ... or will we?\n",
+    "talkTitle": "Battle Of The Microservice Frameworks: Micronaut versus Quarkus edition! ",
+    "talkId": 24955
+  },
+  {
+    "id": 26574,
+    "fromDate": "2019-11-04T15:45:00Z",
+    "toDate": "2019-11-04T16:15:00Z",
+    "overflow": false,
+    "reserved": false,
+    "remark": null,
+    "roomId": 1205,
+    "roomName": "Room 9",
+    "sessionTypeId": 1254,
+    "sessionTypeName": "Tools-in-Action",
+    "sessionTypeDuration": 30,
+    "sessionTypeBreak": false,
+    "audienceLevel": "BEGINNER",
+    "langName": null,
+    "timezone": "Europe/Brussels",
+    "trackId": "1159",
+    "trackName": "Cloud, Containers & Infrastructure",
+    "trackImageURL": "https://s3-eu-west-1.amazonaws.com/voxxeddays/webapp/images/227114b5-6c72-4059-82ef-be9bf00ddd47.png",
+    "speakers": [
+      {
+        "id": 34151,
+        "firstName": "Mohammed",
+        "lastName": "Aboullaite",
+        "company": "xHUB"
+      }
+    ],
+    "tags": [
+      {
+        "name": "Java"
+      },
+      {
+        "name": "Containers"
+      },
+      {
+        "name": "Docker"
+      }
+    ],
+    "talkDescription": "The containers technology revolutionized the way we architect, develop and ship our applications, and brought Java developers closed than ever to \"Write once run anywhere\"! \nHowever, Containers added some layers of abstraction: We have to write a Dockerfile, setup Docker daemon, wait for builds to complete, fix any errors and finally push the image to registry! Wasn't building our favorite packaging formats (jar/war|ear) easier?!\n\nThis TIA, explores what Jib, an open source fast image builder Java library from Google, brought to the table, and how it speeds up development by finely separating the application across multiple layers and incrementally building the image, by inferring what it needs from Maven or Gradle project. We'll also discuss the concept of \"Distroless\" container Images and how to benefit from it.\n",
+    "talkTitle": "Speedy build for your java application images with JIB!",
+    "talkId": 33703
+  },
+  {
+    "id": 115251,
+    "fromDate": "2019-11-04T15:45:00Z",
+    "toDate": "2019-11-04T16:15:00Z",
+    "overflow": false,
+    "reserved": false,
+    "remark": null,
+    "roomId": 1210,
+    "roomName": "BOF 1",
+    "sessionTypeId": 1254,
+    "sessionTypeName": "Tools-in-Action",
+    "sessionTypeDuration": 30,
+    "sessionTypeBreak": false,
+    "audienceLevel": "BEGINNER",
+    "langName": null,
+    "timezone": "Europe/Brussels",
+    "trackId": "1159",
+    "trackName": "Cloud, Containers & Infrastructure",
+    "trackImageURL": "https://s3-eu-west-1.amazonaws.com/voxxeddays/webapp/images/227114b5-6c72-4059-82ef-be9bf00ddd47.png",
+    "speakers": [
+      {
+        "id": 6852,
+        "firstName": "Ana-Maria",
+        "lastName": "Mihalceanu",
+        "company": "IBM"
+      }
+    ],
+    "tags": [
+      {
+        "name": "release"
+      },
+      {
+        "name": "Elegant Builds at Scale"
+      },
+      {
+        "name": "Kubernetes"
+      },
+      {
+        "name": "Package mangement"
+      },
+      {
+        "name": "best practices"
+      }
+    ],
+    "talkDescription": "Changes, even those that represent improvement, are always accompanied by obstacles and discomforts. \nKubernetes can become very complex with all the objects that need to be handled in addition to releases that you operate with. The goal of this session: address complexity with development passion. \nIn this session I will explain and demonstrate live how you can simplify Kubernetes complexity with Helm: templates, values, requirements and pod specifications made easier, maintainable and reusable.",
+    "talkTitle": "Helm your way with Kubernetes",
+    "talkId": 26303
+  },
+  {
+    "id": 26953,
+    "fromDate": "2019-11-04T16:15:00Z",
+    "toDate": "2019-11-04T16:30:00Z",
+    "overflow": false,
+    "reserved": false,
+    "remark": null,
+    "roomId": 1203,
+    "roomName": "Exhibition Hall",
+    "sessionTypeId": 26902,
+    "sessionTypeName": "Break",
+    "sessionTypeDuration": 15,
+    "sessionTypeBreak": true,
+    "audienceLevel": null,
+    "langName": null,
+    "timezone": "Europe/Brussels",
+    "trackId": null,
+    "trackName": null,
+    "trackImageURL": null,
+    "speakers": null,
+    "tags": null,
+    "talkDescription": null,
+    "talkTitle": null,
+    "talkId": null
+  },
+  {
+    "id": 26579,
+    "fromDate": "2019-11-04T16:30:00Z",
+    "toDate": "2019-11-04T17:00:00Z",
+    "overflow": false,
+    "reserved": false,
+    "remark": null,
+    "roomId": 1211,
+    "roomName": "Room 4",
+    "sessionTypeId": 1254,
+    "sessionTypeName": "Tools-in-Action",
+    "sessionTypeDuration": 30,
+    "sessionTypeBreak": false,
+    "audienceLevel": "BEGINNER",
+    "langName": null,
+    "timezone": "Europe/Brussels",
+    "trackId": "1160",
+    "trackName": "Architecture",
+    "trackImageURL": "https://s3-eu-west-1.amazonaws.com/voxxeddays/webapp/images/17c5c96d-cbfd-42ef-b715-13f1a05c5391.png",
+    "speakers": [
+      {
+        "id": 13858,
+        "firstName": "Rosanne",
+        "lastName": "Joosten",
+        "company": "OpenValue"
+      }
+    ],
+    "tags": [
+      {
+        "name": "testing"
+      },
+      {
+        "name": "mocks"
+      },
+      {
+        "name": "test frameworks"
+      }
+    ],
+    "talkDescription": "Microservices are a popular architectural pattern in the Java world. So developers have to learn to deal with this architecture and the accompanying benefits and pitfalls. Take testing microservices. One of the main benefits of a microservice is that it has its own isolated responsibility. You can develop, upgrade, scale and test them independently. But microservices often depend on other services. So when you want to test the application, the question arises: which services you should start. How do you stabilise tests for a single service without bothering about its dependencies? Wiremock can help you with that. WireMock is a simulator for HTTP-based APIs. In this session the use of Wiremock in a real-life application is discussed and demonstrated.",
+    "talkTitle": "Wiremock: because your microservice needs a buddy when you're testing",
+    "talkId": 13912
+  },
+  {
+    "id": 26578,
+    "fromDate": "2019-11-04T16:30:00Z",
+    "toDate": "2019-11-04T17:00:00Z",
+    "overflow": false,
+    "reserved": false,
+    "remark": null,
+    "roomId": 1202,
+    "roomName": "Room 5",
+    "sessionTypeId": 1254,
+    "sessionTypeName": "Tools-in-Action",
+    "sessionTypeDuration": 30,
+    "sessionTypeBreak": false,
+    "audienceLevel": "BEGINNER",
+    "langName": null,
+    "timezone": "Europe/Brussels",
+    "trackId": "1154",
+    "trackName": "Java Language",
+    "trackImageURL": "https://s3-eu-west-1.amazonaws.com/voxxeddays/webapp/images/f63a6ff7-0b15-4feb-b0fb-06aad848e601.png",
+    "speakers": [
+      {
+        "id": 45707,
+        "firstName": "Robert",
+        "lastName": "Munteanu",
+        "company": "Adobe Systems"
+      }
+    ],
+    "tags": [
+      {
+        "name": "Java"
+      },
+      {
+        "name": "javaagent"
+      },
+      {
+        "name": "best practices"
+      }
+    ],
+    "talkDescription": "Java agents are a little-known but extremely powerful part of the Java ecosystem. Agents are able to transform existing classes at runtime, allowing scenarios such as logging and monitoring, hot reload or gathering code coverage. However, their usage presents a number of pitfalls as well.\n\nIn this talk we will present the steps of writing a java agent from scratch, indicate various common mistakes and pain points and draw conclusions on best practices.\n\nAfter this talk participants will have a better understanding of the Java instrumentation API and about should / should not be done with it.",
+    "talkTitle": "Writing Java agents for fun and (not so much) profit",
+    "talkId": 45459
+  },
+  {
+    "id": 26577,
+    "fromDate": "2019-11-04T16:30:00Z",
+    "toDate": "2019-11-04T17:00:00Z",
+    "overflow": false,
+    "reserved": false,
+    "remark": null,
+    "roomId": 1207,
+    "roomName": "Room 6",
+    "sessionTypeId": 1254,
+    "sessionTypeName": "Tools-in-Action",
+    "sessionTypeDuration": 30,
+    "sessionTypeBreak": false,
+    "audienceLevel": "BEGINNER",
+    "langName": null,
+    "timezone": "Europe/Brussels",
+    "trackId": "1157",
+    "trackName": "Front End",
+    "trackImageURL": "https://s3-eu-west-1.amazonaws.com/voxxeddays/webapp/images/e8f80f6a-89da-49e9-993c-bc94be9ca14b.png",
+    "speakers": [
+      {
+        "id": 50810,
+        "firstName": "Vincent",
+        "lastName": "Ogloblinsky",
+        "company": "SII"
+      }
+    ],
+    "tags": [
+      {
+        "name": "Augmented Reality"
+      },
+      {
+        "name": "web browser"
+      },
+      {
+        "name": "Web API"
+      }
+    ],
+    "talkDescription": "After virtual reality & augmented reality, here is the third : mixed reality. In this fusion of real and virtual world, mixed reality adds objects in our real environment which user can interact with.\n\nWebXR in an official API draft from Mozilla & Google to extend WebVR API for augmented reality, with support of frameworks like ARKit (Apple) et ARCore (Google).\n\nIn this talk, discover in details this new API & how we can build right now with web languages such interactive web experiences.",
+    "talkTitle": "WebXR : augmented reality lands into our web browsers",
+    "talkId": 50324
+  },
+  {
+    "id": 26576,
+    "fromDate": "2019-11-04T16:30:00Z",
+    "toDate": "2019-11-04T17:00:00Z",
+    "overflow": false,
+    "reserved": false,
+    "remark": null,
+    "roomId": 1201,
+    "roomName": "Room 8",
+    "sessionTypeId": 1254,
+    "sessionTypeName": "Tools-in-Action",
+    "sessionTypeDuration": 30,
+    "sessionTypeBreak": false,
+    "audienceLevel": "BEGINNER",
+    "langName": null,
+    "timezone": "Europe/Brussels",
+    "trackId": "1152",
+    "trackName": "Programming languages",
+    "trackImageURL": "https://s3-eu-west-1.amazonaws.com/voxxeddays/webapp/images/53f80769-d8be-4ae5-a731-d5591c97d2b4.png",
+    "speakers": [
+      {
+        "id": 50552,
+        "firstName": "Robert",
+        "lastName": "Scholte",
+        "company": "Sourcegrounds"
+      }
+    ],
+    "tags": [
+      {
+        "name": "Java"
+      },
+      {
+        "name": "build tools"
+      },
+      {
+        "name": "Apache Maven"
+      }
+    ],
+    "talkDescription": "\"Why is my build broken? Again?\" We all recognize the frustrations when things are not going as planned. Software development just isn't that easy. But how do we solve the issue? In case you have full control over the problem, you'll be able to fix it yourself, hopefully. But in case you depend on something or somebody else it often results in temporary workarounds, in theory. In practice nothing is as permanent as a temporary solution. Over the last decade Maven has improved a lot, but still only a small percentage of the available features are used by the average developer. \nThis session demonstates the evolution of Maven based on user experiences and explaining the proper solution for workarounds like \"clean install\".",
+    "talkTitle": "Broken Buildtools and Bad Behaviors; The Maven Story",
+    "talkId": 50258
+  },
+  {
+    "id": 26580,
+    "fromDate": "2019-11-04T16:30:00Z",
+    "toDate": "2019-11-04T17:00:00Z",
+    "overflow": false,
+    "reserved": false,
+    "remark": null,
+    "roomId": 1205,
+    "roomName": "Room 9",
+    "sessionTypeId": 1254,
+    "sessionTypeName": "Tools-in-Action",
+    "sessionTypeDuration": 30,
+    "sessionTypeBreak": false,
+    "audienceLevel": "BEGINNER",
+    "langName": null,
+    "timezone": "Europe/Brussels",
+    "trackId": "1159",
+    "trackName": "Cloud, Containers & Infrastructure",
+    "trackImageURL": "https://s3-eu-west-1.amazonaws.com/voxxeddays/webapp/images/227114b5-6c72-4059-82ef-be9bf00ddd47.png",
+    "speakers": [
+      {
+        "id": 50806,
+        "firstName": "Fabian",
+        "lastName": "Stäber",
+        "company": "Instana"
+      }
+    ],
+    "tags": [
+      {
+        "name": "Java"
+      },
+      {
+        "name": "Kubernetes"
+      },
+      {
+        "name": "Quarkus"
+      }
+    ],
+    "talkDescription": "Kubernetes is much more than a runtime platform for Docker containers. Its API can be extended with application-specific custom resource definitions (CRDs), and you can implement your own controllers adapting your applications dynamically to changes in the cluster. Application-specific custom controllers are called \"operators\". Until recently, most operators were written in Go, re-using code from the built-in Kubernetes controllers. With Quarkus and the fabric8 Kubernetes Client we now have a great basis for implementing operators in Java, allowing us to integrate our existing code base with the power of Kubernetes API extensions. At Instana, we used these new technologies to implement our instana-agent-operator. In this presentation, we will provide an experience report and lessons learned from implementing our own operator in Java. The operator is available on https://github.com/instana/instana-agent-operator.",
+    "talkTitle": "Writing a Kubernetes Operator in Java",
+    "talkId": 50318
+  },
+  {
+    "id": 26955,
+    "fromDate": "2019-11-04T17:00:00Z",
+    "toDate": "2019-11-04T17:15:00Z",
+    "overflow": false,
+    "reserved": false,
+    "remark": null,
+    "roomId": 1203,
+    "roomName": "Exhibition Hall",
+    "sessionTypeId": 26902,
+    "sessionTypeName": "Break",
+    "sessionTypeDuration": 15,
+    "sessionTypeBreak": true,
+    "audienceLevel": null,
+    "langName": null,
+    "timezone": "Europe/Brussels",
+    "trackId": null,
+    "trackName": null,
+    "trackImageURL": null,
+    "speakers": null,
+    "tags": null,
+    "talkDescription": null,
+    "talkTitle": null,
+    "talkId": null
+  },
+  {
+    "id": 26581,
+    "fromDate": "2019-11-04T17:15:00Z",
+    "toDate": "2019-11-04T17:45:00Z",
+    "overflow": false,
+    "reserved": false,
+    "remark": null,
+    "roomId": 1211,
+    "roomName": "Room 4",
+    "sessionTypeId": 1254,
+    "sessionTypeName": "Tools-in-Action",
+    "sessionTypeDuration": 30,
+    "sessionTypeBreak": false,
+    "audienceLevel": "BEGINNER",
+    "langName": null,
+    "timezone": "Europe/Brussels",
+    "trackId": "1160",
+    "trackName": "Architecture",
+    "trackImageURL": "https://s3-eu-west-1.amazonaws.com/voxxeddays/webapp/images/17c5c96d-cbfd-42ef-b715-13f1a05c5391.png",
+    "speakers": [
+      {
+        "id": 50596,
+        "firstName": "Loïc",
+        "lastName": "MATHIEU",
+        "company": "Zenika"
+      }
+    ],
+    "tags": [
+      {
+        "name": "Java"
+      },
+      {
+        "name": "monitoring"
+      },
+      {
+        "name": "debugging"
+      }
+    ],
+    "talkDescription": "Alibaba is the Chinese colossus of the e-commerce, they just open-sourced a few months ago Arthas, a diagnostic tool for the JVM, which they use in production for find and solves issues (performance, crash, ...).\nIn this tools-in-action, comes and discover how Arthas works via a live-session where we will diagnose the behavior of a Java application.\nYou will see the Arthas CLI in action to find, diagnose, debug and solves coding issues and discover performance bottlenecks.",
+    "talkTitle": "Arthas - Alibaba Java Diagnostic Tool",
+    "talkId": 51439
+  },
+  {
+    "id": 26584,
+    "fromDate": "2019-11-04T17:15:00Z",
+    "toDate": "2019-11-04T17:45:00Z",
+    "overflow": false,
+    "reserved": false,
+    "remark": null,
+    "roomId": 1202,
+    "roomName": "Room 5",
+    "sessionTypeId": 1254,
+    "sessionTypeName": "Tools-in-Action",
+    "sessionTypeDuration": 30,
+    "sessionTypeBreak": false,
+    "audienceLevel": "BEGINNER",
+    "langName": null,
+    "timezone": "Europe/Brussels",
+    "trackId": "1154",
+    "trackName": "Java Language",
+    "trackImageURL": "https://s3-eu-west-1.amazonaws.com/voxxeddays/webapp/images/f63a6ff7-0b15-4feb-b0fb-06aad848e601.png",
+    "speakers": [
+      {
+        "id": 44405,
+        "firstName": "Werner",
+        "lastName": "Keil",
+        "company": "Creative Arts & Technologies Ltd&Co KG"
+      }
+    ],
+    "tags": [
+      {
+        "name": "Java"
+      },
+      {
+        "name": "JSR"
+      },
+      {
+        "name": "JSR 354 - The Money & Currency API"
+      },
+      {
+        "name": "JCP"
+      },
+      {
+        "name": "money"
+      }
+    ],
+    "talkDescription": "Maintenance Lead Werner Keil will present JSR 354 (Money and Currency). They will discuss the API from a developer as well as user perspective and share details on the design decisions behind the JSR. \nMonetary values are a key feature of many applications, yet the JDK provides little or no support. The existing java.util.Currency class is strictly a structure used for representing current ISO-4217 currencies, but not associated values or custom currencies. The JDK also provides no support for monetary arithmetic or currency conversion, nor for a standard value type to represent a monetary amount. \nThe session will demonstrate how the JSR models monetary capabilities, monetary amounts, currencies, rounding, financial arithmetics as well as formatting and currency conversion in a platform independent and flexible manner. The first part of the talk will focus on key concepts, improvements like Java 9/Jigsaw modularity and planned new features for a future release followed by a live coding session demonstrating the Money JSR in action.",
+    "talkTitle": "Money, Money, Money, can be funny with JSR 354",
+    "talkId": 52086
+  },
+  {
+    "id": 26585,
+    "fromDate": "2019-11-04T17:15:00Z",
+    "toDate": "2019-11-04T17:45:00Z",
+    "overflow": false,
+    "reserved": false,
+    "remark": null,
+    "roomId": 1207,
+    "roomName": "Room 6",
+    "sessionTypeId": 1254,
+    "sessionTypeName": "Tools-in-Action",
+    "sessionTypeDuration": 30,
+    "sessionTypeBreak": false,
+    "audienceLevel": "BEGINNER",
+    "langName": null,
+    "timezone": "Europe/Brussels",
+    "trackId": "1153",
+    "trackName": "Big Data & Machine Learning",
+    "trackImageURL": "https://s3-eu-west-1.amazonaws.com/voxxeddays/webapp/images/e80e14f1-7a23-4a6d-a955-7a653973f6eb.png",
+    "speakers": [
+      {
+        "id": 46501,
+        "firstName": "Quentin",
+        "lastName": "Ambard",
+        "company": "Databricks"
+      }
+    ],
+    "tags": [
+      {
+        "name": "Cloud Machine Learning"
+      },
+      {
+        "name": "Cloud Ecosystems"
+      },
+      {
+        "name": "Machine learning"
+      }
+    ],
+    "talkDescription": "Machine learning development brings many new complexities beyond the traditional software development lifecycle. ML developers want to try multiple algorithms, tools and parameters to get the best results, and they need to track this information to ensure reproducibility, especially when it comes to deploy these models in production!\nJoin the session to discover how the MLflow open source platform can help you to:\n\n- Keep track of experiments runs and results across frameworks.\n- Register projects and quickly reproduce your runs.\n- Quickly productionize models using Docker containers, Azure ML, or Amazon SageMaker",
+    "talkTitle": "MLflow: Platform for Complete Machine Learning Lifecycle",
+    "talkId": 51739
+  },
+  {
+    "id": 26582,
+    "fromDate": "2019-11-04T17:15:00Z",
+    "toDate": "2019-11-04T17:45:00Z",
+    "overflow": false,
+    "reserved": false,
+    "remark": null,
+    "roomId": 1201,
+    "roomName": "Room 8",
+    "sessionTypeId": 1254,
+    "sessionTypeName": "Tools-in-Action",
+    "sessionTypeDuration": 30,
+    "sessionTypeBreak": false,
+    "audienceLevel": "BEGINNER",
+    "langName": null,
+    "timezone": "Europe/Brussels",
+    "trackId": "1155",
+    "trackName": "Server Side Java",
+    "trackImageURL": "https://s3-eu-west-1.amazonaws.com/voxxeddays/webapp/images/698b503d-9578-48da-85a9-bdf8ba942e3a.png",
+    "speakers": [
+      {
+        "id": 14051,
+        "firstName": "Jesper",
+        "lastName": "Møller",
+        "company": "Nine A/S"
+      }
+    ],
+    "tags": [
+      {
+        "name": "RxJava"
+      },
+      {
+        "name": "Javascript"
+      },
+      {
+        "name": "Apache Kafka"
+      },
+      {
+        "name": "Micronaut"
+      },
+      {
+        "name": "Reactive Streams"
+      }
+    ],
+    "talkDescription": "This live code walkthrough will show you how to accept data get from a screaming hot data source, tame it into topic-based storage, and finally extract it into an interactive, \"live\" web client. In a proper, testable fashion!\n\nWe'll cover the basics of a reactive application in Micronaut, including how to get data in and out of Apache Kafka, by leveraging Micronaut's novel approach to dependency injection. We'll put the streams of data to good use in an interactive client using D3.js, using just enough JavaScript code.\n\nAnd we'll do it while enjoying the short iteration times and static type safety guaranteed by Micronaut.",
+    "talkTitle": "From hot data sources to interactive clients in a hurry",
+    "talkId": 13603
+  },
+  {
+    "id": 26583,
+    "fromDate": "2019-11-04T17:15:00Z",
+    "toDate": "2019-11-04T17:45:00Z",
+    "overflow": false,
+    "reserved": false,
+    "remark": null,
+    "roomId": 1205,
+    "roomName": "Room 9",
+    "sessionTypeId": 1254,
+    "sessionTypeName": "Tools-in-Action",
+    "sessionTypeDuration": 30,
+    "sessionTypeBreak": false,
+    "audienceLevel": "BEGINNER",
+    "langName": null,
+    "timezone": "Europe/Brussels",
+    "trackId": "1159",
+    "trackName": "Cloud, Containers & Infrastructure",
+    "trackImageURL": "https://s3-eu-west-1.amazonaws.com/voxxeddays/webapp/images/227114b5-6c72-4059-82ef-be9bf00ddd47.png",
+    "speakers": [
+      {
+        "id": 14052,
+        "firstName": "Jaap",
+        "lastName": "Coomans",
+        "company": "GROUP9"
+      }
+    ],
+    "tags": [
+      {
+        "name": "MicroServices"
+      },
+      {
+        "name": "testing"
+      },
+      {
+        "name": "automation"
+      },
+      {
+        "name": "mocks"
+      }
+    ],
+    "talkDescription": "How can I test my microservices? It's an often heard question that leads to a lot of debate. Deployment and interdependence with other services are the challenges we're facing there. So, what if we could treat our microservices tests just like our familiar unit tests? What if we could isolate the microservice and mock all its dependencies? With mock-server you can do just that. Mock-server lets you mock any http service, making you independent of other teams building those services. And the best part is, you can use it with the tools you already know like JUnit, Maven and Docker and do all the things you already know from your favorite Java mocking framework. You can run mock-server locally, as part of your Maven build or as a Docker image in your cloud environment. In this session I will show you exactly how you can use mock-server for your tests.",
+    "talkTitle": "Mocking your microservices with mock-server",
+    "talkId": 13606
+  },
+  {
+    "id": 26957,
+    "fromDate": "2019-11-04T17:45:00Z",
+    "toDate": "2019-11-04T18:00:00Z",
+    "overflow": false,
+    "reserved": false,
+    "remark": null,
+    "roomId": 1203,
+    "roomName": "Exhibition Hall",
+    "sessionTypeId": 26902,
+    "sessionTypeName": "Break",
+    "sessionTypeDuration": 15,
+    "sessionTypeBreak": true,
+    "audienceLevel": null,
+    "langName": null,
+    "timezone": "Europe/Brussels",
+    "trackId": null,
+    "trackName": null,
+    "trackImageURL": null,
+    "speakers": null,
+    "tags": null,
+    "talkDescription": null,
+    "talkTitle": null,
+    "talkId": null
+  },
+  {
+    "id": 26587,
+    "fromDate": "2019-11-04T18:00:00Z",
+    "toDate": "2019-11-04T19:00:00Z",
+    "overflow": false,
+    "reserved": false,
+    "remark": null,
+    "roomId": 1210,
+    "roomName": "BOF 1",
+    "sessionTypeId": 1252,
+    "sessionTypeName": "BOF",
+    "sessionTypeDuration": 60,
+    "sessionTypeBreak": false,
+    "audienceLevel": "BEGINNER",
+    "langName": null,
+    "timezone": "Europe/Brussels",
+    "trackId": "1158",
+    "trackName": "Mind the Geek",
+    "trackImageURL": "https://s3-eu-west-1.amazonaws.com/voxxeddays/webapp/images/0bac192f-aa3c-4288-bad0-4dd4abdbbdc1.png",
+    "speakers": [
+      {
+        "id": 17453,
+        "firstName": "Martin",
+        "lastName": "Klähn",
+        "company": "Airbus Defence and Space GmbH"
+      },
+      {
+        "id": 17303,
+        "firstName": "Sven",
+        "lastName": "Reimers",
+        "company": "Java Champion"
+      }
+    ],
+    "tags": [
+      {
+        "name": "Java Community"
+      },
+      {
+        "name": "JavaFX"
+      },
+      {
+        "name": "Tweetwall"
+      }
+    ],
+    "talkDescription": "TweetwallFX - entertaining  thousands of  Devoxxians for 5 years - time to look back to where we started, chat about the achievements, e.g. AI, exchanging tips and tricks against hijacking of hashtags, creating layers of self protections and so much more.. Let's talk about using TweetwallFX for your conference (includes CFP rendering) and even some fun about embedded - did I mention TweetwallFX can be run a RaspberryPi? Maybe we can even make it run on GraalVM? Bring your own ideas on how TweetwallFX can be further improved - we are always open to crazy suggestions... Ask Stephan...",
+    "talkTitle": "TweetWalls@Devoxx - Today, Tomorrow and Beyond - A Community Get Together",
+    "talkId": 17555
+  },
+  {
+    "id": 26586,
+    "fromDate": "2019-11-04T18:00:00Z",
+    "toDate": "2019-11-04T19:00:00Z",
+    "overflow": false,
+    "reserved": false,
+    "remark": null,
+    "roomId": 1206,
+    "roomName": "BOF 2",
+    "sessionTypeId": 1252,
+    "sessionTypeName": "BOF",
+    "sessionTypeDuration": 60,
+    "sessionTypeBreak": false,
+    "audienceLevel": "BEGINNER",
+    "langName": null,
+    "timezone": "Europe/Brussels",
+    "trackId": "1151",
+    "trackName": "Methodology & Culture",
+    "trackImageURL": "https://s3-eu-west-1.amazonaws.com/voxxeddays/webapp/images/710ace39-49e0-4935-9734-7cda98204fa4.png",
+    "speakers": [
+      {
+        "id": 50570,
+        "firstName": "Steve",
+        "lastName": "Poole",
+        "company": "IBM"
+      }
+    ],
+    "tags": [
+      {
+        "name": "Java"
+      },
+      {
+        "name": "devops"
+      },
+      {
+        "name": "fun"
+      },
+      {
+        "name": "Kubernetes"
+      }
+    ],
+    "talkDescription": "In my day being a developer was easy.  Just you. Java and your monolith.\nModern developers have no idea how unlucky they are.\n\n\nThis talk is a sideways walk through a serious topic.  The amount of ancillary knowledge that developers nowadays need is truly\namazing.  Trying to deliver you precious business logic is challenging when it seems you also need a degree in Kubernetes and DevOps tools.\n\nWhich way should you go on your journey?  what tools?, what companions do you need with you? Everything keeps changing which makes\nIt easy to go down an undiscovered path and find yourself being chased by natives with blowpipes and large spherical rocks.\n\nLaying out the current landscape of tools and approaches this session will (re) introduce you  to old enemies and new friends alike and help you understand where you need to put your trust \nand when to run away (at least for today)  \n\nBut you know, try to tell the youngsters how easy it could be and they just don’t believe you.",
+    "talkTitle": "Monty Python meets the Cloud of Doom",
+    "talkId": 52055
+  }
+]

@@ -1,0 +1,14 @@
+[package]
+name = "devoxx-schedule"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+failure = "0.1"
+chrono = { version = "0.4", features = ["serde"] }
+chrono-tz = { version = "0.5.1", features = ["serde"] }
+structopt = { version = "0.3" }
+termion = "1.5.3"
+tui = "0.6.2"

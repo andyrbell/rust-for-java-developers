@@ -1,0 +1,12 @@
+Monty Python meets the Cloud of Doom, 2019-11-04T18:00:00Z
+Securing Microservices with OpenID Connect and Spring Security 5, 2019-11-04T12:30:00Z
+Java 12 & 13. What's new and noteworthy?, 2019-11-04T12:30:00Z
+Rust for Java Developers, 2019-11-04T08:30:00Z
+Building your own JDK in 10 steps, 2019-11-04T15:45:00Z
+Arthas - Alibaba Java Diagnostic Tool, 2019-11-04T17:15:00Z
+Wiremock: because your microservice needs a buddy when you're testing, 2019-11-04T16:30:00Z
+I have deployed my app on Minikube... and now what?, 2019-11-04T15:45:00Z
+Solving Memory Leaks in the JVM, 2019-11-04T08:30:00Z
+Writing Java agents for fun and (not so much) profit, 2019-11-04T16:30:00Z
+TweetWalls@Devoxx - Today Tomorrow and Beyond - A Community Get Together, 2019-11-04T18:00:00Z
+Money Money Money: can be funny with JSR 354, 2019-11-04T17:15:00Z
