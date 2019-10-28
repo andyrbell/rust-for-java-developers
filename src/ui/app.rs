@@ -74,7 +74,7 @@ impl App {
 
     fn set_current_day(&mut self, day: Weekday) -> Result<(), failure::Error>{
         self.day = day;
-        // TODO reload the talks
+        self.talks = get_talks_by_weekday(&day, self.offline)?;
         self.selected = Some(0);
         Ok(())
     }
