@@ -208,7 +208,13 @@ fn draw_detail<B>(f: &mut Frame<B>, area: Rect, app: &App)
         B: Backend
 {
     let text = match app.get_selected() {
-        // TODO
+        Some(talk) => vec![
+            Text::styled(format!("Title: {}\n", talk.get_title()), Style::default().fg(Color::Yellow)),
+            Text::raw(String::from("\n")),
+            Text::raw(format!("Room : {}\n", talk.room_name)),
+            Text::raw(format!("From : {}\n", talk.from_date)),
+            Text::raw(format!("To   : {}\n", talk.to_date)),
+        ],
         _ => vec![Text::raw(String::from("TODO: Talk details"))]
     };
 
