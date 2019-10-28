@@ -53,8 +53,10 @@ pub fn get_talks_by_day_file(day: &str) -> Result<Vec<Talk>, failure::Error> {
         .map_err(failure::Error::from)
 }
 
-pub fn get_talks_by_day_api(_day: &str) -> Result<Vec<Talk>, failure::Error> {
-    unimplemented!()
+pub fn get_talks_by_day_api(day: &str) -> Result<Vec<Talk>, failure::Error> {
+    let request_url = format!("https://{}/api/public/schedules/{day}", DEVOXX_HOST, day = day);
+    let talks: Vec<Talk> = reqwest::get(&request_url)?.json()?;
+    Ok(talks)
 }
 
 
@@ -87,7 +89,7 @@ mod tests {
         verify_get_talks(get_talks_by_day_file("monday"));
     }
 
-    #[test] #[ignore]
+    #[test]
     fn test_get_talks_api() {
         verify_get_talks(get_talks_by_day_api("monday"));
     }
