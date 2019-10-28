@@ -32,7 +32,13 @@ pub struct Tag {
 
 impl Talk {
     pub fn get_title(&self) -> &str {
-        "TODO"
+        match &self.talk_title {
+            Some(title) => &title,
+            _ => match &self.session_type_name {
+                Some(name) => &name,
+                _ => ""
+            }
+        }
     }
 
     pub fn local_from_date(&self) -> String {

@@ -56,8 +56,7 @@ impl App {
     pub fn talk_titles(&self) -> Vec<&str> {
         self.talks()
             .iter()
-            // TODO
-            .map(|talk| talk.talk_title.as_ref().map_or("", String::as_str))
+            .map(|talk| talk.get_title())
             .collect()
     }
 
