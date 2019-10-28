@@ -219,7 +219,7 @@ fn draw_detail<B>(f: &mut Frame<B>, area: Rect, app: &App)
             Text::raw(String::from("\n")),
             Text::raw(format!("Description : {}\n", talk.get_description())),
         ],
-        _ => vec![Text::raw(String::from("TODO: Talk details"))]
+        _ => vec![Text::raw(String::from("No results"))]
     };
 
     Paragraph::new(text.iter())

@@ -49,7 +49,7 @@ impl App {
     pub fn talks(&self) -> Vec<&Talk> {
         self.talks
             .iter()
-            // TODO
+            .filter(|&talk| self.filter(talk))
             .collect()
     }
 
@@ -60,7 +60,13 @@ impl App {
             .collect()
     }
 
-    // TODO a filter function for search talk titles
+    fn filter(&self, talk: &Talk) -> bool {
+        if self.search_text.is_empty() {
+            true
+        } else {
+            talk.get_title().to_lowercase().contains(&self.search_text.to_lowercase())
+        }
+    }
 
     pub fn next_tab(&mut self) -> Result<(), failure::Error> {
         let new_day = if self.day == Weekday::Fri { Weekday::Mon } else { self.day.succ() };
