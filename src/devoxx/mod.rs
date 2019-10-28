@@ -1,3 +1,5 @@
+use std::fs;
+
 use chrono::Weekday;
 
 use model::Talk;
@@ -7,7 +9,10 @@ pub mod model;
 const DEVOXX_HOST: &str = "dvbe19.cfp.dev";
 
 pub fn read_talks() -> Result<Vec<String>, failure::Error> {
-    unimplemented!()
+    let content = fs::read_to_string("./devoxx-data/talks.txt")?;
+    Ok(content.lines()
+        .map(|line| line.to_string())
+        .collect::<Vec<String>>())
 }
 
 pub fn get_talks_by_weekday(day: &Weekday, _offline: bool) -> Result<Vec<Talk>, failure::Error> {
