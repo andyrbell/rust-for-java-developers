@@ -1,6 +1,9 @@
 use chrono::{DateTime, Utc};
+use serde_derive::Deserialize;
 use std::time::UNIX_EPOCH;
 
+#[derive(Deserialize, Debug)]
+#[serde(rename_all = "camelCase")]
 pub struct Talk {
     pub talk_title: Option<String>,
     pub talk_description: Option<String>,
@@ -13,6 +16,8 @@ pub struct Talk {
     pub timezone: String
 }
 
+#[derive(Deserialize, Debug)]
+#[serde(rename_all = "camelCase")]
 pub struct Speaker {
     pub id: u32,
     pub first_name: String,
@@ -20,6 +25,7 @@ pub struct Speaker {
     pub company: Option<String>
 }
 
+#[derive(Deserialize, Debug)]
 pub struct Tag {
     pub name: String
 }

@@ -47,8 +47,10 @@ fn to_talk(talk :&String) -> Talk {
     }
 }
 
-pub fn get_talks_by_day_file(_day: &str) -> Result<Vec<Talk>, failure::Error> {
-    unimplemented!()
+pub fn get_talks_by_day_file(day: &str) -> Result<Vec<Talk>, failure::Error> {
+    let contents = fs::read_to_string(format!("devoxx-data/{}.json", day))?;
+    serde_json::from_str(&contents)
+        .map_err(failure::Error::from)
 }
 
 pub fn get_talks_by_day_api(_day: &str) -> Result<Vec<Talk>, failure::Error> {
@@ -80,7 +82,7 @@ mod tests {
         }
     }
 
-    #[test] #[ignore]
+    #[test]
     fn test_get_talks() {
         verify_get_talks(get_talks_by_day_file("monday"));
     }
