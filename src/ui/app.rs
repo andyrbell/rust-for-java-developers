@@ -1,5 +1,7 @@
 use chrono::Weekday;
 use crate::devoxx::model::Talk;
+use crate::devoxx::get_talks_by_weekday;
+use chrono::Weekday::Mon;
 
 #[derive(PartialEq)]
 pub enum Mode {
@@ -21,13 +23,7 @@ pub struct App {
 
 impl App {
     pub fn new(offline: bool) -> Result<App, failure::Error> {
-        // TODO
-        let talks = vec![
-            Talk {
-                talk_title: Some("TODO: load talks".into()),
-                ..Talk::default()
-            }
-        ];
+        let talks = get_talks_by_weekday(&Mon, offline)?;
 
         Ok(App {
             day : Weekday::Mon,
