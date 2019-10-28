@@ -50,11 +50,19 @@ impl Talk {
     }
 
     pub fn get_description(&self) -> &str {
-        "TODO"
+        match &self.talk_description {
+            Some(description) => &description,
+            _ => ""
+        }
     }
 
     pub fn speaker_names(&self) -> String {
-        "TODO".into()
+        self.speakers.as_ref()
+            .map(|speakers| speakers.iter()
+                .map(|speaker| format!("{} {}", speaker.first_name, speaker.last_name))
+                .collect::<Vec<String>>()
+                .join(", "))
+            .unwrap_or(String::new())
     }
 }
 

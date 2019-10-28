@@ -211,9 +211,13 @@ fn draw_detail<B>(f: &mut Frame<B>, area: Rect, app: &App)
         Some(talk) => vec![
             Text::styled(format!("Title: {}\n", talk.get_title()), Style::default().fg(Color::Yellow)),
             Text::raw(String::from("\n")),
+            Text::raw(format!("Speaker(s) : {}\n", talk.speaker_names())),
+            Text::raw(String::from("\n")),
             Text::raw(format!("Room : {}\n", talk.room_name)),
             Text::raw(format!("From : {}\n", talk.from_date)),
             Text::raw(format!("To   : {}\n", talk.to_date)),
+            Text::raw(String::from("\n")),
+            Text::raw(format!("Description : {}\n", talk.get_description())),
         ],
         _ => vec![Text::raw(String::from("TODO: Talk details"))]
     };
