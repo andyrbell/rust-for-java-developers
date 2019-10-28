@@ -17,7 +17,7 @@ pub fn read_talks() -> Result<Vec<String>, failure::Error> {
         .collect::<Vec<String>>())
 }
 
-pub fn get_talks_by_weekday(day: &Weekday, _offline: bool) -> Result<Vec<Talk>, failure::Error> {
+pub fn get_talks_by_weekday(day: &Weekday, offline: bool) -> Result<Vec<Talk>, failure::Error> {
     let day = match day {
         Weekday::Mon => "monday",
         Weekday::Tue => "tuesday",
@@ -27,9 +27,7 @@ pub fn get_talks_by_weekday(day: &Weekday, _offline: bool) -> Result<Vec<Talk>, 
         _ => "monday"
     };
 
-    // TODO use offline flag
-
-    get_talks_by_day_file(day)
+    if offline { get_talks_by_day_file(day) } else { get_talks_by_day_api(day) }
 }
 
 pub fn get_talks() -> Result<Vec<Talk>, failure::Error> {
