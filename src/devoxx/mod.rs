@@ -1,5 +1,7 @@
 use std::fs;
+use std::str::FromStr;
 
+use chrono::DateTime;
 use chrono::Weekday;
 
 use model::Talk;
@@ -31,9 +33,19 @@ pub fn get_talks_by_weekday(day: &Weekday, _offline: bool) -> Result<Vec<Talk>, 
 }
 
 pub fn get_talks() -> Result<Vec<Talk>, failure::Error> {
-    unimplemented!()
+    Ok(read_talks()?.iter().map(to_talk).collect())
 }
 
+fn to_talk(talk :&String) -> Talk {
+    let v = talk.split(", ").collect::<Vec<&str>>();
+    let (title, date) = (v[0], v[1]);
+    let from_date = DateTime::from_str(date).expect("invalid date");
+    Talk {
+        talk_title: Some(title.to_string()),
+        from_date,
+        ..Talk::default()
+    }
+}
 
 pub fn get_talks_by_day_file(_day: &str) -> Result<Vec<Talk>, failure::Error> {
     unimplemented!()
@@ -58,7 +70,7 @@ mod tests {
         }
     }
 
-    #[test] #[ignore]
+    #[test]
     fn test_structured_data() {
         let items = get_talks();
         assert_eq!(items.is_ok(), true, "{:?}", items.err());
