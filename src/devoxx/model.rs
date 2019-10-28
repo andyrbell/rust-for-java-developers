@@ -42,11 +42,13 @@ impl Talk {
     }
 
     pub fn local_from_date(&self) -> String {
-        "TODO".into()
+        let tz: chrono_tz::Tz = self.timezone.parse().expect("Unknown timezone");
+        self.from_date.with_timezone(&tz).to_rfc2822()
     }
 
     pub fn local_to_date(&self) -> String {
-        "TODO".into()
+        let tz: chrono_tz::Tz = self.timezone.parse().expect("Unknown timezone");
+        self.to_date.with_timezone(&tz).to_rfc2822()
     }
 
     pub fn get_description(&self) -> &str {
