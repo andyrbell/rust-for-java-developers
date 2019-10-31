@@ -53,6 +53,7 @@ impl App {
     pub fn talks(&self) -> Vec<&Talk> {
         self.talks
             .iter()
+            // TODO
             .collect()
     }
 

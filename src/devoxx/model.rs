@@ -61,3 +61,42 @@ impl Default for Talk {
         }
     }
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test] #[ignore]
+    fn test_talk_title() {
+        let mut talk = Talk::default();
+        talk.talk_title = Some(String::from("some title"));
+
+        assert_eq!(talk.get_title(), "some title");
+
+        let mut talk = Talk::default();
+        talk.session_type_name = Some(String::from("Session name"));
+
+        assert_eq!(talk.get_title(), "Session name");
+    }
+
+    #[test] #[ignore]
+    fn test_speaker_names() {
+        let mut talk = Talk::default();
+        let speaker1 = Speaker {
+            id: 1,
+            first_name: "First".to_string(),
+            last_name: "Speaker".to_string(),
+            company: Some("Acme Inc".to_string())
+        };
+        let speaker2 = Speaker {
+            id: 2,
+            first_name: "Second".to_string(),
+            last_name: "Speaker".to_string(),
+            company: Some("Acme Inc".to_string())
+        };
+
+        talk.speakers = Some(vec![speaker1, speaker2]);
+
+        assert_eq!(talk.speaker_names(), "First Speaker, Second Speaker".to_string());
+    }
+}
