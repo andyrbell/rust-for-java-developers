@@ -1,6 +1,6 @@
 = Rust for Java Developers workshop
 
-image::images/rust-crates.png[Rust logo]
+image::images/rusty.png[Rust logo]
 
 An introduction to the https://www.rust-lang.org/[Rust] programming language for Java developers
 
