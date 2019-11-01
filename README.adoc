@@ -4,4 +4,19 @@ image::images/rust-car.png[Rust logo]
 
 An introduction to the https://www.rust-lang.org/[Rust] programming language for Java developers
 
-Clone this repository then follow the instructions on the link:../../wiki[Wiki]
+Clone this repository then follow the instructions on the link:../../wiki/Lab-part-01[Wiki]
+
+# Prerequisites
+
+## Linux / MacOS
+🦀 Install Rust with link:https://rustup.rs[Rustup]
+```bash
+curl https://sh.rustup.rs -sSf | sh
+```
+## Windows
+🦀 Download and run link:https://static.rust-lang.org/rustup/dist/i686-pc-windows-gnu/rustup-init.exe[rustup-init.exe]
+
+***
+
+👀 Take a look in `~/.cargo/bin`. `rustc`, `cargo` and `rustup`, should have just been installed there, along with the rest of the Rust toolchain.
+
