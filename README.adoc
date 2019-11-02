@@ -24,3 +24,4 @@ curl https://sh.rustup.rs -sSf | sh
 
 Setup an IDE of your choice. We strongly recommend the link:https://intellij-rust.github.io[Rust plugin] for Intellij as that's what we'll be coding along with but recognize it's not to everyone's tastes. If you're still determined to use something else, there is a list link:https://github.com/rust-unofficial/awesome-rust#ides[here] which has the usual suspects on it.  
 
+image::images/rust-start3.png[align="center", link="../../wiki/Lab-part-01"]
