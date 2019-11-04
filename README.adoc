@@ -14,7 +14,8 @@ Clone this repository then follow the instructions on the link:../../wiki/Lab-pa
 curl https://sh.rustup.rs -sSf | sh
 ```
 ## Windows
-🦀 Download and run link:https://static.rust-lang.org/rustup/dist/i686-pc-windows-gnu/rustup-init.exe[rustup-init.exe]
+
+🦀 Install link:https://docs.microsoft.com/en-us/windows/wsl/install-win10[Windows Subsystem for Linux] then follow the Linux instructions above from a WSL terminal
 
 ***
 
