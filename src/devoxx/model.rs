@@ -88,7 +88,7 @@ impl Default for Talk {
 mod tests {
     use super::*;
 
-    #[test] #[ignore]
+    #[test]
     fn test_talk_title() {
         let mut talk = Talk::default();
         talk.talk_title = Some(String::from("some title"));
@@ -101,7 +101,7 @@ mod tests {
         assert_eq!(talk.get_title(), "Session name");
     }
 
-    #[test] #[ignore]
+    #[test]
     fn test_speaker_names() {
         let mut talk = Talk::default();
         let speaker1 = Speaker {
